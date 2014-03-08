@@ -7,6 +7,7 @@
 //
 
 #import "GSViewController.h"
+#import "Social/Social.h"
 
 @interface GSViewController ()
 
@@ -26,4 +27,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)postItButtonPressed:(id)sender {
+    NSString *tweet = [NSString stringWithFormat:@"%@ #MyHashtag", self.tweetTextView.text];
+        NSLog(@"Tweeting: %@!", tweet);
+    SLComposeViewController *composer = [SLComposeViewController composeViewControllerForServiceType:SLServiceTypeTwitter];
+    [composer setInitialText:tweet];
+    [self presentViewController:composer animated:YES completion:nil];
+}
 @end

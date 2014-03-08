@@ -21,6 +21,7 @@
 		0866306918CBD0800028545B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0866304B18CBD0800028545B /* UIKit.framework */; };
 		0866307118CBD0800028545B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0866306F18CBD0800028545B /* InfoPlist.strings */; };
 		0866307318CBD0800028545B /* MarcoPolloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0866307218CBD0800028545B /* MarcoPolloTests.m */; };
+		0866307D18CBDB6E0028545B /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0866307C18CBDB6E0028545B /* Social.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0866306E18CBD0800028545B /* MarcoPolloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MarcoPolloTests-Info.plist"; sourceTree = "<group>"; };
 		0866307018CBD0800028545B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0866307218CBD0800028545B /* MarcoPolloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MarcoPolloTests.m; sourceTree = "<group>"; };
+		0866307C18CBDB6E0028545B /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0866307D18CBDB6E0028545B /* Social.framework in Frameworks */,
 				0866304A18CBD0800028545B /* CoreGraphics.framework in Frameworks */,
 				0866304C18CBD0800028545B /* UIKit.framework in Frameworks */,
 				0866304818CBD0800028545B /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		0866304618CBD0800028545B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0866307C18CBDB6E0028545B /* Social.framework */,
 				0866304718CBD0800028545B /* Foundation.framework */,
 				0866304918CBD0800028545B /* CoreGraphics.framework */,
 				0866304B18CBD0800028545B /* UIKit.framework */,
